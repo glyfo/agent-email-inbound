@@ -9,11 +9,8 @@
     "lib": ["ES2022", "WebWorker"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "jsx": "react-jsx",
-    "jsxImportSource": "react",
     "types": [
-      "@cloudflare/workers-types",
-      "@types/react"
+      "@cloudflare/workers-types"
     ],
     "resolveJsonModule": true,
     "allowJs": true,
@@ -45,7 +42,8 @@
     "verbatimModuleSyntax": false
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "emails/**/*"
   ],
   "exclude": [
     "node_modules",
